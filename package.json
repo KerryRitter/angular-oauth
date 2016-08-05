@@ -1,0 +1,19 @@
+{
+  "name": "angular-future",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-ui-router": "^0.3.1",
+    "typings": "^1.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-tslint": "^4.3.5",
+    "gulp-typescript": "^2.12.2",
+    "gulp-uglify": "^1.5.1",
+    "tslint": "^3.7.4"
+  },
+  "scripts": {
+    "postinstall": "typings install"
+  }
+}
