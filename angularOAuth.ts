@@ -1,6 +1,5 @@
 /// <reference path="typings.d.ts" />
 
-const AngularOAuth = angular.module("openIddict", []);
-
-AngularOAuth.value("openIddictConfig", {} as oauth.IOAuthConfig);
-AngularOAuth.service("oauthHttpService", OAuthHttpService);
+angular.module("angular-oauth", [])
+    .value("oauthConfig", {} as oauth.IOAuthConfig)
+    .service("oauthHttpService", OAuthHttpService);
