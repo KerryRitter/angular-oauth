@@ -142,6 +142,7 @@ var OAuthHttpService = (function () {
     return OAuthHttpService;
 }());
 /// <reference path="typings.d.ts" />
-var AngularOAuth = angular.module("openIddict", []);
-AngularOAuth.value("openIddictConfig", {});
-AngularOAuth.service("oauthHttpService", OAuthHttpService);
+/// <reference path="typings/index.d.ts" />
+angular.module("angular-oauth", [])
+    .value("oauthConfig", {})
+    .service("oauthHttpService", OAuthHttpService);

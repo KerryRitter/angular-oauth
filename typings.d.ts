@@ -1,5 +1,3 @@
-/// <reference path="typings/index.d.ts" />
-
 declare namespace oauth {
     interface IOAuthHttpService {
         register(email: string, password: string): ng.IHttpPromise<boolean>;
