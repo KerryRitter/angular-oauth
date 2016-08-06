@@ -1,5 +1,5 @@
 {
-  "name": "angular-future",
+  "name": "angular-oauth",
   "version": "0.0.1",
   "dependencies": {
     "angular": "1.5.5",
